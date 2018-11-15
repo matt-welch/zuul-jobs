@@ -484,4 +484,4 @@
       To use this, set the ``test_command`` variable.
     run: playbooks/run-test-command/run.yaml
     vars:
-      test_command: "exit 1"
+      test_command: "touch sriov_file"
