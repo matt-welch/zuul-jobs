@@ -485,3 +485,13 @@
     run: playbooks/run-test-command/run.yaml
     vars:
       test_command: "touch sriov_file"
+
+- job:
+    name: run-test-com
+    description: |
+      Run simple command as test.
+
+      To use this, set the ``test_command`` variable.
+    run: playbooks/run-test-command/run.yaml
+    vars:
+      test_command: "touch sriov_file"
