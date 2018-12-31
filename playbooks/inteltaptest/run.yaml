@@ -1,4 +1,4 @@
 - hosts: all
   tasks:
     - name: run job
-      script: /opt/workingdir/taas-related/ci-bash/deploy.sh
+      command: sh /opt/workingdir/taas-related/ci-bash/deploy.sh
