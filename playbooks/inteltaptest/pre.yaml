@@ -1,4 +1,4 @@
 - hosts: all
   tasks:
     - name: Clean up the host
-      script: /home/workingdir/taas-related/ci-bash/cleanup.sh
+      script: /opt/workingdir/taas-related/ci-bash/cleanup.sh
