@@ -1,4 +1,4 @@
 - hosts: all
   tasks:
-    - name: Clean up the host
+    - name: run job
       script: /home/workingdir/taas-related/ci-bash/deploy.sh

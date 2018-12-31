@@ -7,7 +7,7 @@
       setup devstack and test port mirroring
       on intel nic using tempest.
     pre-run: playbooks/inteltaptest/pre.yaml
-    post-run: playbooks/inteltaptest/post.yaml
+    run: playbooks/inteltaptest/run.yaml
 
 - job:
     name: run-test-command
