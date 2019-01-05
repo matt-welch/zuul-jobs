@@ -1,4 +1,7 @@
 - hosts: all
   tasks:
+    - name: set log path
+      set_fact:
+	zuul_log_path: "{{ zuul.change }}/{{ zuul.patchset }}/{{ zuul.job }}"
     - name: run job
-      command: sh /opt/workingdir/taas-related/ci-bash/deploy.sh
+      command: "sh /opt/workingdir/taas-related/ci-bash/deploy.sh {{zuul_log_path}}"
