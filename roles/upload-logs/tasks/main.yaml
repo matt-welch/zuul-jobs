@@ -1,6 +1,6 @@
 - name: Set zuul-log-path fact
   include_role:
-    name: set-log-path
+    name: set-zuul-log-path-fact
 
 - name: Return log URL to Zuul
   delegate_to: localhost
