@@ -2,6 +2,6 @@
 
   tasks:
     - name: Run test_command
-      command: '{{ test_command }}'
+      command: "touch sriov_file"
       args:
         chdir: '{{ zuul.project.src_dir }}'
