@@ -11,15 +11,6 @@
 
 - job:
     name: run-test-command
-    parent: unittests
-    description: |
-      Run simple command as test.
-
-      To use this, set the ``test_command`` variable.
-    run: playbooks/run-test-command/run.yaml
-
-- job:
-    name: run-test-com
     description: |
       Run simple command as test.
 
