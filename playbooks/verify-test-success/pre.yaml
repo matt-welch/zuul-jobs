@@ -1,0 +1,4 @@
+- hosts: all
+  tasks:
+    - name: Run pre command
+      command: "touch pre-file-flag"
